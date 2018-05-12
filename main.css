@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(25, 25, 25);
+}
+
+#theCanvas {
+  display: block;
+  margin: 0 auto;
+  width: 1000px;
+  height: 600px;
+  /*border: 1px solid gray;*/
+  background: transparent;
+}
+
+.controls {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.controls > button {
+  padding: 0.25rem 1rem;
+}
